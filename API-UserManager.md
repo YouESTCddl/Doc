@@ -1,17 +1,15 @@
-# API Document
+# API Document - UserManager
 
-## UserManager
-
-### Login
+## Login
 
 **POST** /api/login
 
-#### Request
+### Request
 
 * **uid** int
 * **passwd** string
 
-#### Response
+### Response
 
 * Success
 
@@ -44,15 +42,15 @@
     }
     ```
 
-### Status
+## Status
 
 **GET** /api/status
 
-#### Request
+### Request
 
 * **Cookie** Cookie || **uid** int
 
-#### Response
+### Response
 
 * Success
 
@@ -75,15 +73,15 @@
     }
     ```
 
-### Logout
+## Logout
 
 **POST** /api/logout
 
-#### Request
+### Request
 
 * **Cookie** Cookie || **uid** int
 
-#### Response
+### Response
 
 * Success
 
@@ -105,17 +103,17 @@
     }
     ```
 
-### Reg
+## Reg
 
 **POST** /api/reg
 
-#### Request
+### Request
 
 * **uid** int
 * **passwd** string
 * **passwd_r** string
 
-#### Response
+### Response
 
 * Success
 
@@ -138,17 +136,17 @@
     }
     ```
 
-### Passwd Reset
+## Passwd Reset
 
 **PATCH** /std/:uid/passwd/reset
 
-#### Request
+### Request
 
 * **old_passwd** string
 * **new_passwd** string
 * **new_passwd_r** string
 
-#### Response
+### Response
 
 * Success
 
