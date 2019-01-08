@@ -14,7 +14,9 @@
 #### Response
 
 * Success
+
     HTTP 200
+
     ```json
     {
         "message": "OK",
@@ -23,7 +25,9 @@
     ```
 
 * Uid or Password error
+
     HTTP 200
+
     ```json
     {
         "message": "UID_OR_PASSWORD_ERROR"
@@ -31,7 +35,9 @@
     ```
 
 * Uid or Password Invalid
+
     HTTP 200
+
     ```json
     {
         "message": "UID_OR_PASSWORD_INVALID"
@@ -49,7 +55,9 @@
 #### Response
 
 * Success
+
     HTTP 200
+
     ```json
     {
         "message": "OK",
@@ -58,7 +66,9 @@
     ```
 
 * Logout
+
     HTTP 200
+
     ```json
     {
         "message": "LOGOUT"
@@ -76,7 +86,9 @@
 #### Response
 
 * Success
+
     HTTP 200
+
     ```json
     {
         "message": "OK"
@@ -84,7 +96,9 @@
     ```
 
 * Error
+
     HTTP 500
+
     ```json
     {
         "message": "UNKNOWN_ERROR"
@@ -104,7 +118,9 @@
 #### Response
 
 * Success
+
     HTTP 200
+
     ```json
     {
         "message": "OK",
@@ -113,7 +129,9 @@
     ```
 
 * Uid or Password Invalid
+
     HTTP 200
+
     ```json
     {
         "message": "UID_OR_PASSWORD_INVALID"
@@ -133,49 +151,61 @@
 #### Response
 
 * Success
-  HTTP 200
-  ```json
-  {
-    "message": "OK"
-  }
-  ```
+
+    HTTP 200
+
+    ```json
+    {
+        "message": "OK"
+    }
+    ```
 
 * Uid or Password error
-  HTTP 422
-  ```json
-  {
-    "message": "UID_OR_PASSWORD_ERROR"
-  }
-  ```
+
+    HTTP 422
+
+    ```json
+    {
+        "message": "UID_OR_PASSWORD_ERROR"
+    }
+    ```
 
 * Uid or Password or New Password Invalid
-  HTTP 422
-  ```json
-  {
-    "message": "UID_OR_PASSWORD_OR_NEW_PASSWORD_INVALID"
-  }
-  ```
+
+    HTTP 422
+
+    ```json
+    {
+        "message": "UID_OR_PASSWORD_OR_NEW_PASSWORD_INVALID"
+    }
+    ```
 
 * New Repeat Password not Same
-  HTTP 422
-  ```json
-  {
-    "message": "NEW_REPEAT_PASSWORD_NOT_SAME"
-  }
-  ```
+
+    HTTP 422
+
+    ```json
+    {
+        "message": "NEW_REPEAT_PASSWORD_NOT_SAME"
+    }
+    ```
 
 * New Password same as old one
-  HTTP 422
-  ```json
-  {
-    "message": "NEW_PASSWORD_SAME_AS_OLD_ONE"
-  }
-  ```
+
+    HTTP 422
+
+    ```json
+    {
+        "message": "NEW_PASSWORD_SAME_AS_OLD_ONE"
+    }
+    ```
 
 * Unknown Error
-  HTTP 500
-  ```json
-  {
-    "message": "UNKNOWN_ERROR"
-  }
-  ```
+
+    HTTP 500
+
+    ```json
+    {
+        "message": "UNKNOWN_ERROR"
+    }
+    ```
